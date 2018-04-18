@@ -1,3 +1,17 @@
+.Component-outer {
+  background-color: #777;
+  text-align: center;
+  border-style: dotted;
+  padding: 20px;
+}
+
+.Component-inner {
+  background-color: #fff;
+  text-align: center;
+  border-style: dotted;
+  padding: 20px;
+}
+
 .App {
   text-align: center;
 }

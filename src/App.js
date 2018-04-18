@@ -18,8 +18,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App" style={{borderStyle: 'dotted'}}>
-        <h1>Outer Component</h1>
+      <div className="Component-outer">
+        <h1>Outer Component - App</h1>
         <ShowNames names={this.state.names} />
         <AddNames addFunction={this.addName} />
       </div>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-
 class AddNames extends Component {
   constructor(){
     super();
@@ -21,7 +20,7 @@ class AddNames extends Component {
 
   render() {
     return (
-      <div style={{borderStyle: 'dotted'}}>
+      <div className="Component-inner">
         <h1>Inner component - AddNames</h1>
         <form onSubmit={this.handleSubmit}>
            <label>
