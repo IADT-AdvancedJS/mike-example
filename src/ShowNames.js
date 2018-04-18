@@ -7,7 +7,7 @@ class ShowNames extends Component {
     })
     return (
       <div className="Component-inner">
-        <h1>Inner component - ShowNames</h1>
+        <h1>Inner Component - ShowNames</h1>
         {formattedNames}
       </div>
     );

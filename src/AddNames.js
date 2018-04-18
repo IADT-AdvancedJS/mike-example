@@ -21,7 +21,7 @@ class AddNames extends Component {
   render() {
     return (
       <div className="Component-inner">
-        <h1>Inner component - AddNames</h1>
+        <h1>Inner Component - AddNames</h1>
         <form onSubmit={this.handleSubmit}>
            <label>
              Name:
